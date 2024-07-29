@@ -1,0 +1,26 @@
+{
+  "name": "pil-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mfibonacci": "node mfibonacci/mfib_gen_and_prove.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroKPunk/pil-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeroKPunk/pil-study/issues"
+  },
+  "homepage": "https://github.com/ZeroKPunk/pil-study#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "pil-stark": "^0.0.56",
+    "yargs": "^17.7.2"
+  }
+}

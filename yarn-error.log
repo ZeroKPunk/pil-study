@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/xiajuson/.nvm/versions/node/v21.7.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js run test:mfibonacci
+
+PATH: 
+  /Users/xiajuson/.nvm/versions/node/v21.7.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/xiajuson/Library/pnpm:/Users/xiajuson/.nvm/versions/node/v21.7.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/xiajuson/.cargo/bin:/Users/xiajuson/Library/Python/3.9/bin:/Users/xiajuson/.foundry/bin:/Users/xiajuson/.nargo/bin:/Users/xiajuson/.local/bin:/Users/xiajuson/Library/Python/3.9/bin:/Users/xiajuson/.foundry/bin:/Users/xiajuson/.foundry/bin:/Users/xiajuson/.nargo/bin:/Users/xiajuson/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/xiajuson/Desktop/devcode/pil-polygon/pil-study/package.json: Expected double-quoted property name in JSON at position 218 (line 9 column 3)
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "pil-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "test:mfibonacci": "node ./test/mfibonacci.js",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ZeroKPunk/pil-study.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ZeroKPunk/pil-study/issues"
+    },
+    "homepage": "https://github.com/ZeroKPunk/pil-study#readme",
+    "dependencies": {
+      "chai": "^4.3.10",
+      "pil-stark": "^0.0.56",
+      "yargs": "^17.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
