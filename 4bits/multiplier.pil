@@ -1,0 +1,8 @@
+namespace Multiplier(%N);
+
+    pol commit freeIn1;
+    pol commit freeIn2;
+    pol commit out;
+
+    // constraints
+    out = freeIn1 * freeIn2;
